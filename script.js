@@ -48,4 +48,4 @@ var main = function() {
 }
 
 // only run if run directly instead of via require
-if (!module.parent) main()
+if (module.parent === null) main()
